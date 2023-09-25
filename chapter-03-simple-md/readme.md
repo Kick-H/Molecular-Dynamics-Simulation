@@ -137,13 +137,13 @@ $$
 根据力的定义可得（习题），粒子 $i$ 所受总的力为
 
 $$
-\vec{F}_{i} = \sum_{j \neq i} \vec{F}_{ij}
+\vec{F}_{i} = \sum _{j \neq i} \vec{F} _{ij}
 $$
 
 $$
-\vec{F}_{ij} =
+\vec{F}_ {ij} =
 \frac{\partial U_{ij}(r_{ij})}{\partial r_{ij}}
-\frac{\vec{r}_{ij} }{r_{ij}}
+\frac{\vec{r}_ {ij} }{r_{ij}}
 $$
 
 其中，我们定义了一个表示粒子间相对位置的符号
@@ -155,13 +155,13 @@ $$
 显然，牛顿第三定律成立：
 
 $$
-\vec{F}_{ij} = - \vec{F}_{ji}.
+\vec{F}_ {ij} = - \vec{F}_{ji}.
 $$
 
 进一步推导可得 LJ 势中力的明确表达式：
 
 $$
-\vec{F}_{ij} = \vec{r}_{ij}
+\vec{F}_ {ij} = \vec{r}_ {ij}
 \left( 
 \frac{24 \epsilon \sigma^6} {r_{ij}^8} - \frac{48 \epsilon \sigma^{12}} {r_{ij}^{14}} 
 \right).
@@ -174,7 +174,7 @@ U_{ij}(r_{ij}) = 0  \quad (r_{ij} > R_{\rm c})
 $$
 
 $$
-\vec{F}_{ij} = \vec{0}  \quad (r_{ij} > R_{\rm c})
+\vec{F}_ {ij} = \vec{0}  \quad (r_{ij} > R_{\rm c})
 $$
 
 ### 运动方程的数值积分
